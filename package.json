@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "compplete api",
   "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
     "test": "node server.js --port=5555"
   },
@@ -16,9 +19,10 @@
     "url": "https://github.com/comp426-2022-fall/a04-nmiggiani/issues"
   },
   "homepage": "https://github.com/comp426-2022-fall/a04-nmiggiani#readme",
+  "type": "module",
   "dependencies": {
     "express": "^4.18.2",
     "minimist": "^1.2.7"
-  },
-  "type": "module"
+  }
+
 }
