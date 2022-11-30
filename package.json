@@ -1,7 +1,7 @@
 {
   "name": "a04-nmiggiani",
   "version": "1.0.0",
-  "description": "compplete api",
+  "description": "Full API",
   "main": "server.js",
   "directories": {
     "lib": "lib"
