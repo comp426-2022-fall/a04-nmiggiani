@@ -1,3 +1,4 @@
+
 import minimist from "minimist"
 import express from "express"
 import { roll } from './lib/roll.js'
@@ -11,7 +12,6 @@ app.use(express.urlencoded({ extended: true }))
 app.get('/app/', (req, res) => {                   
     res.send('200 OK');
 })
-
 
 app.post('/app/roll', (req, res) => {                
     const sides = parseInt(req.body.sides)         
@@ -48,6 +48,4 @@ app.listen(args.port || 5000)
 app.use((req, res) => {                       
     res.status(404).send("404 NOT FOUND")
 })
-
-    
 
