@@ -47,3 +47,4 @@ app.listen(args.port || 5000)
 app.use((req, res) => {                       
     res.status(404).send("404 NOT FOUND")
 })
+
